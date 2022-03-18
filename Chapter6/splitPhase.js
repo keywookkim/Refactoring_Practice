@@ -5,7 +5,7 @@ const orderPrice = parseInt(orderData[1]) * productPrice;
 
 // afterRefactoring
 const orderRecord = parseOrder(order)
-const orderPrice = price(orderRecord, priceList);
+const calulatedOrderPrice = price(orderRecord, priceList);
 
 function parseOrder(aString) {
   const values = aString.split(/\s+/);
